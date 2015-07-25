@@ -11,8 +11,21 @@ header{
 div.contact {
 	width: 180px; height: 210px;
 	float: left;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 210px;
+}
+
+div.contact > p.label {
+	font-size: 1.1em;
+	color: black;
+	opacity: .6;
+	line-height: 90px;
+	background-color: white;
 
 }
+
+
 
 div.row1 {
 	display: inline-block;
@@ -45,36 +58,18 @@ div.six {
 }
 
 img.icon {
-	display: block; 
-	width: 40px;
-	margin: 40px auto;
-	padding: 20px;
-	background: rgba(255,255,255,.3);
+	display: block;
+	margin-left: 40px;
+	background: rgba(255,255,255,.2);
 	border-radius: 50%;
-	box-shadow: 0px 0px 0px 30px rgba(255,255,255,.2);
-	transition: box-shadow .4s;
+	
 }
 
-p.label {
-	font-size: 1.1em;
-	color: black;
-	text-align: center;
-	opacity: .6;
-	padding-top: 10px;
-	transition: padding-top: .4s;
-}
 
-div.contact:hover{
-	height: 230px;
-
-}
-
-div.contact:hover p.label{
-	padding-top: 30px;
-	opacity: 1;
-}
 
 div.contact:hover img.icon{
+	box-shadow: 0px 0px 0px 15px rgba(255,255,255,.2);
+	transition: box-shadow .4s;
 	box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .7);
 
 }
