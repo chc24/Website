@@ -1,0 +1,81 @@
+* {
+	margin: 0; padding-top: 0; font-family: helvetica;
+}
+
+header{
+	margin: 100px auto;
+	width: 1080px;
+	height: 210px;
+}
+
+div.contact {
+	width: 180px; height: 210px;
+	float: left;
+
+}
+
+div.row1 {
+	display: inline-block;
+}
+div.row2 {
+	display: inline-block;
+}
+div.one {
+	background-color: LightSteelBlue;
+}
+
+div.two {
+	background-color: LightBlue;
+}
+
+div.three {
+	background-color: darkgray;
+}
+
+div.four {
+	background-color: tan;
+}
+
+div.five {
+	background-color: silver;
+}
+
+div.six {
+	background-color: SkyBlue; 
+}
+
+img.icon {
+	display: block; 
+	width: 40px;
+	margin: 40px auto;
+	padding: 20px;
+	background: rgba(255,255,255,.3);
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 30px rgba(255,255,255,.2);
+	transition: box-shadow .4s;
+}
+
+p.label {
+	font-size: 1.1em;
+	color: black;
+	text-align: center;
+	opacity: .6;
+	padding-top: 10px;
+	transition: padding-top: .4s;
+}
+
+div.contact:hover{
+	height: 230px;
+
+}
+
+div.contact:hover p.label{
+	padding-top: 30px;
+	opacity: 1;
+}
+
+div.contact:hover img.icon{
+	box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .7);
+
+}
+	
